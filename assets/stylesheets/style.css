@@ -1,0 +1,276 @@
+/* style.css */
+
+/*
+style.css for torrentz search engine
+Designed & Developed by: Aman Mandape
+*/
+
+CSS: Eric Meyer's reset
+/*
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+========================================================
+Body
+========================================================
+*/
+
+body
+{
+	margin-top: 0;
+}
+
+body
+{
+	font-family: "Arial";
+}
+/*
+========================================================
+Grid Styles
+========================================================
+*/
+
+*,
+*:before,
+*:after
+{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.container
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*
+===============================================================
+Clearfix
+===============================================================
+*/
+
+.group:before,
+.group:after
+{
+	content: "";
+	display: table;
+}
+.group:after
+{
+	clear: both;
+}
+.group
+{
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+========================================================
+Primary Header Styles
+========================================================
+*/
+
+.pri-head
+{
+	background: #056595;
+	color: #fff;
+	border-radius: 0 0 10px 10px;
+	padding: 0 10px;
+}
+
+.head h1
+{
+	font-size: 48px;
+	font-weight: normal;
+}
+
+.head
+{
+	float: left;
+}
+
+.head h1
+{
+	margin: 0;
+	padding: 10px;
+}
+
+.pri-head a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.head a:hover
+{
+	color: #BFDEFD;
+}
+
+/*
+========================================================
+Primary Footer Styles
+========================================================
+*/
+
+.foot
+{
+	background: #056595;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+}
+.foot small
+{
+	display: block;
+	text-align: center;
+}
+
+/*
+========================================================
+Primary Navigation Styles
+========================================================
+*/
+
+.navi
+{
+	float: right;
+}
+
+.navi
+{
+	font-size: 20px;
+}
+
+.navi li
+{
+	display: inline-block;
+}
+
+.navi a
+{
+	padding: 21px;
+	border-left: 1px solid #fff;
+}
+
+.navi ul
+{
+	margin-top: 24px;
+}
+
+.navi a:hover
+{
+	background: #BFDEFD;
+}
+
+/*
+========================================================
+Content Styles
+========================================================
+*/
+
+.content
+{
+	margin-top: 140px;
+	margin-bottom: 20px;
+}
+
+.content
+{
+	text-align: center;
+}
+
+.content a
+{
+	color: #056595;
+	text-decoration: none;
+}
+
+.content a:hover
+{
+	color: #BFDEFD;
+}
+
+.content form
+{
+	padding: 20px;
+	border-radius: 30px;
+	background:rgb(255, 157, 111);
+}
+.content input
+{
+	padding: 15px;
+	border-radius: 20px;
+	border: 1px solid #056595;
+}
+
+.content p
+{
+	font-size: 1.5rem;
+}
+
+/*
+========================================================
+Mirrors
+========================================================
+*/
+
+.mirrors
+{
+	margin-top: 300px;
+	
+}
+
+
+.sites
+{
+	margin-top: 100px;
+}
